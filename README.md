@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Deidine Cheigeur my country Mauritania</h1>
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=my+name+is+deidine;i'am+a develloper+in+php+mysql+java+cpp+c+javascript+dart" alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=i'am+a develloper+in+php+mysql+java;cpp+c+javascript+dart" alt="Typing SVG" /></a>
 <h3 align="center">I am currently learning Manual & Automation testing. Working in various projects like Automation testing, Manual testing, API testing, Web & Mobile application testing, Database testing. </h3>
 
 - 📫 You can reach me at: **cheigeurdeidine@gmail.com**
