@@ -1,9 +1,7 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=my+name+is+deidine;i'am+a develloper+in+php+mysql+java+cpp+c+javascript+dart" alt="Typing SVG" /></a>
+
 <h1 align="center">Hi 👋, I'm Deidine Cheigeur my country Mauritania</h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=2686B0&center=true&vCenter=true&width=450&lines=Software+Quality+%26+Automation+Engineer.)](https://git.io/typing-svg)
-
-
+[![Typing SVG](<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=my+name+is+deidine;i'am+a develloper+in+php+mysql+java+cpp+c+javascript+dart" alt="Typing SVG" /></a>)
 <h3 align="center">I am currently learning Manual & Automation testing. Working in various projects like Automation testing, Manual testing, API testing, Web & Mobile application testing, Database testing. </h3>
 
 - 📫 You can reach me at: **cheigeurdeidine@gmail.com**
