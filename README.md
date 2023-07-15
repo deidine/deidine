@@ -7,14 +7,14 @@
 - 👨‍💻 All of my projects are available at https://github.com/deidine?tab=repositories
 - my website https://deidine.github.io/
 to add project to github by git bash
-''
+<p style="color:red;">
 git init 
 git add .
 git commit -m "Add foldername"
 git branch -M main
-git remote add origin https://github.com/deidine/freelacer.git
+git remote add origin https://github.com/deidine/project.git
 git push -u origin main
-'''
+</p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
