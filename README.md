@@ -6,8 +6,8 @@
 - 📫 You can reach me at: **cheigeurdeidine@gmail.com**
 - 👨‍💻 All of my projects are available at https://github.com/deidine?tab=repositories
 - my website https://deidine.github.io/
-to add project to github by git bash
 <p style="color:red;">
+to add project to github by git bash<br>
 git init <br>
 git add . <br>
 git commit -m "Add foldername" <br>
