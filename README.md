@@ -8,12 +8,12 @@
 - my website https://deidine.github.io/
 to add project to github by git bash
 <p style="color:red;">
-git init 
-git add .
-git commit -m "Add foldername"
-git branch -M main
-git remote add origin https://github.com/deidine/project.git
-git push -u origin main
+git init <br>
+git add . <br>
+git commit -m "Add foldername" <br>
+git branch -M main <br>
+git remote add origin https://github.com/deidine/project.git <br>
+git push -u origin main <br>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
