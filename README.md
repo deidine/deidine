@@ -7,14 +7,22 @@
 - 👨‍💻 All of my projects are available at https://github.com/deidine?tab=repositories
 - my website https://deidine.github.io/
 - my gist github https://gist.github.com/deidine/
-<p style="color:red;">
-to add project to github by git bash<br>
+<p style="color:red;display:inline-block;">
+ <div>if you wany=t to update the content of r=remote repository
+ git add .
+git commit -m "Final Changes"
+git remote add origin url(in url add the address of your repository)
+git remote -v
+git push -f
+git push origin master
+ </div>
+<div>to add project to github by git bash<br>
 git init <br>
 git add . <br>
 git commit -m "Add foldername" <br>
 git branch -M main <br>
 git remote add origin https://github.com/deidine/project.git <br>
-git push -u origin main <br>
+git push -u origin main <br></div>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
