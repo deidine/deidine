@@ -17,8 +17,10 @@ git branch -M main <br>
 git remote add origin https://github.com/deidine/project.git <br>
 git push -u origin main <br>
 </div>
- <div>if you wany=t to update the content of r=remote repository
- git add .
+ <div>
+  <br>
+  if you want to update the content of remote repository<br>
+ git add .<br>
 git commit -m "Final Changes"<br>
 git remote add origin url(in url add the address of your repository)<br>
 git remote -v<br>
