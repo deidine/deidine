@@ -19,13 +19,7 @@ git push -u origin main <br>
 </div>
  <div>
   <br>
-  if you want to update the content of remote repository<br>
- git add .<br>
-git commit -m "Final Changes"<br>
-git remote add origin url(in url add the address of your repository)<br>
-git remote -v<br>
-git push -f<br>
-git push origin master<br>
+  if you want to update the content of remote repository do the sme thing as above<br>
  </div>
 </p>
 
