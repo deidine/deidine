@@ -1,3 +1,5 @@
+<html>
+ 
 
 <h1 align="center">Hi 👋, I'm Deidine Cheigeur my country Mauritania</h1>
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=i'am+a develloper+in+php+mysql+java;cpp+c+javascript+dart" alt="Typing SVG" /></a>
@@ -30,3 +32,4 @@ git push -u origin main <br>
  
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deidine&label=Profile%20views&color=0e75b6&style=flat" alt="deidine" /> </p>
+</html>
