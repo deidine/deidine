@@ -9,7 +9,7 @@ Beyond coding, I'm enthusiastic about sharing my expertise and collaborating wit
 When I'm not coding, you can find me exploring new technologies, attending tech meetups, or enjoying the great outdoors. Let's connect and embark on an exciting journey of innovation together!
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&color=1F56C0&size=22&width=550&lines=I'm+a+PHP%2C+MySQL%2C+Java%2C+Cpp%2C+C%2C+JavaScript%2C+Dart%2C+NoSql%2C+developer+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&color=1F56C0&size=22&width=550&lines=I'm+a+PHP%2C+MySQL%2C+Java%2C+Cpp%2C+C%2C+JavaScript%2C+Dart%2C+%2C+Dart%2C+NoSql%2C+developer+)](https://git.io/typing-svg)
 
 ## About Me
 I am currently learning Manual & Automation testing, and working on various projects including Automation testing, Manual testing, API testing, and Web & Mobile application testing, Database testing.
