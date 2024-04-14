@@ -1,7 +1,12 @@
 # Deidine Cheigeur - Developer
 
-Hi there! 👋 I'm Deidine Cheigeur from Mauritania.
+Hi there! 👋 I'm Deidine Cheigeur from Mauritania, and I'm passionate about technology and innovation. As a full-stack developer, I specialize in creating robust and user-friendly web, mobile, and desktop applications. With expertise in Artificial Intelligence, Data Science, Cybersecurity, and Machine Learning, I'm committed to staying at the forefront of technological advancements.
 
+My journey in the world of technology began with a  Bachelor's to Master's degree in Computer Science, where I delved into the intricacies of Information Systems. Since then, I've been on a continuous learning path, honing my skills and expanding my knowledge to tackle diverse challenges in the ever-evolving tech landscape.
+
+Beyond coding, I'm enthusiastic about sharing my expertise and collaborating with fellow developers. Whether it's contributing to open-source projects, participating in hackathons, or mentoring aspiring developers, I'm always eager to be part of initiatives that drive innovation and positive change.
+
+When I'm not coding, you can find me exploring new technologies, attending tech meetups, or enjoying the great outdoors. Let's connect and embark on an exciting journey of innovation together!
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&color=1F56C0&size=22&width=550&lines=I'm+a+developer+in+PHP%2C+MySQL%2C+Java%2C+Cpp%2C+C%2C+JavaScript%2C+Dart)](https://git.io/typing-svg)
 
 ## About Me
