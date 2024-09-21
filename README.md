@@ -56,3 +56,7 @@ If you want to update the content of the remote repository, do the same thing as
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="20" height="20"> PHP
 
 ![Profile Views](https://komarev.com/ghpvc/?username=deidine&label=Profile%20views&color=0e75b6&style=flat)
+
+## Visitors Count
+
+<img  src="https://profile-counter.glitch.me/deidine/count.svg" alt="Visitor Count"/>
