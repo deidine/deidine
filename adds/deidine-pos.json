@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ad_001",
+    "title": "دفتر الحسابات الرقمي",
+    "description": "تتبع مبيعاتك وديونك بسهولة مع نظام deidine POS المتكامل",
+    "imageUrl": "https://picsum.photos/seed/pos1/800/400",
+    "clickAction": "https://deidine.com",
+    "targetShopTypes": ["general", "grocery", "electronics"],
+    "targetLanguages": ["ar"],
+    "priority": 1,
+    "expiresAt": 1811808000000
+  },
+  {
+    "id": "ad_002",
+    "title": "Gérez votre stock intelligemment",
+    "description": "Suivez vos produits en temps réel et recevez des alertes de stock bas avec deidine POS",
+    "imageUrl": "https://picsum.photos/seed/pos2/800/400",
+    "clickAction": "https://deidine.com",
+    "targetShopTypes": ["general", "grocery", "clothing"],
+    "targetLanguages": ["fr"],
+    "priority": 2,
+    "expiresAt": 1811808000000
+  },
+  {
+    "id": "ad_003",
+    "title": "Accept Bankily & Masrivi Payments",
+    "description": "Your POS already tracks Bankily, Masrivi, Bience and Sada — upgrade to the full finance module",
+    "imageUrl": "https://picsum.photos/seed/pos3/800/400",
+    "clickAction": "https://deidine.com",
+    "targetShopTypes": ["general", "restaurant", "electronics"],
+    "targetLanguages": ["en"],
+    "priority": 1,
+    "expiresAt": 1811808000000
+  },
+  {
+    "id": "ad_004",
+    "title": "سجّل مصاريفك اليومية",
+    "description": "تتبع الإيرادات والمصروفات بتصنيفات واضحة — راتب، إيجار، مشتريات وأكثر",
+    "imageUrl": "https://picsum.photos/seed/pos4/800/400",
+    "clickAction": "https://deidine.com",
+    "targetShopTypes": ["general", "grocery", "restaurant", "clothing", "electronics"],
+    "targetLanguages": ["ar"],
+    "priority": 3,
+    "expiresAt": 1811808000000
+  },
+  {
+    "id": "ad_005",
+    "title": "Rapports de ventes détaillés",
+    "description": "Consultez vos statistiques quotidiennes, hebdomadaires et mensuelles en un seul clic",
+    "imageUrl": "https://picsum.photos/seed/pos5/800/400",
+    "clickAction": "https://deidine.com",
+    "targetShopTypes": ["general", "grocery", "restaurant"],
+    "targetLanguages": ["fr", "ar"],
+    "priority": 2,
+    "expiresAt": 1811808000000
+  },
+  {
+    "id": "ad_006",
+    "title": "Customer Loyalty Tracking",
+    "description": "Automatically award loyalty points on every sale and track your best clients",
+    "imageUrl": "https://picsum.photos/seed/pos6/800/400",
+    "clickAction": "https://deidine.com",
+    "targetShopTypes": ["general", "clothing", "electronics"],
+    "targetLanguages": ["en", "fr"],
+    "priority": 2,
+    "expiresAt": 1811808000000
+  }
+]
