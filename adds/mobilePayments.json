@@ -1,0 +1,23 @@
+[
+  {
+    "key": "bankily",
+    "label": "Bankily",
+    "labelAr": "بنكيلي",
+    "icon": "cellphone-wireless",
+    "color": "#F59E0B"
+  },
+  {
+    "key": "sada",
+    "label": "Sada",
+    "labelAr": "السداد",
+    "icon": "cellphone-wireless",
+    "color": "#8B5CF6"
+  },
+  {
+    "key": "masrify",
+    "label": "Masrify",
+    "labelAr": "مصرفي",
+    "icon": "cellphone-wireless",
+    "color": "#EC4899"
+  }
+]
