@@ -38,26 +38,30 @@ Across ~15 engagements since 2020, by project type rather than client name:
 
 ## Languages and Tools
 
--  [Java](https://www.java.com/en/)
--  [Python](https://www.python.org)
--  Angular
--  React
--  Spring
--  C++
--  Android
--  Postman
--  Gradle
--  Selenium
--  Git
--  HTML5
--  JavaScript
--  Bootstrap
--  Laravel
--  MongoDB
--  MySQL
--  Node.js
--  Oracle
--  PHP
+- [Java](https://www.java.com/en/)
+- Next JS
+- Nest Js
+- Xcode
+- Android
+- [Python](https://www.python.org)
+- Angular
+- React
+- Spring
+- C++
+- Android
+- Postman
+- Gradle
+- Selenium
+- Git
+- HTML5
+- JavaScript
+- Bootstrap
+- Laravel
+- MongoDB
+- MySQL
+- Node.js
+- Oracle
+- PHP
 
 ![Profile Views](<https://komarev.com/ghpvc/?username=deidine&label=Profile%20views&color=0e75b6&style=flat>)
 

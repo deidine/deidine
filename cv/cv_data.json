@@ -1,352 +1,357 @@
 {
-  "en": {
-    "name": "DEIDINE SIDINA",
-    "job_title": "Software Engineer",
-    "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine  |  github.com/deidine",
-    "summary_heading": "Professional Summary",
-    "summary_text": "Software engineer with experience delivering full-stack web, mobile, and desktop applications across real estate, e-commerce, government, and fintech-adjacent projects. Skilled in React/Next.js, React Native, Spring Boot, and Python, with hands-on experience in AI integration (OpenAI SDK, RAG), cloud deployment (AWS, GCP), and both SQL and NoSQL database design.",
-    "skills_heading": "Skills",
-    "skills": [
-      ["Languages", "JavaScript, TypeScript, Python, Java, C, C++, PHP, Dart, SQL"],
-      ["Frontend & Mobile", "React, Next.js, Angular, Vue.js, React Native, Electron, HTML, CSS, Tailwind CSS, Bootstrap"],
-      ["Backend", "Spring Boot, Hibernate/JPA, Laravel, Django, REST API, SOAP"],
-      ["Databases", "MySQL, PostgreSQL, MongoDB, Firebase, Supabase, SQL Server, NoSQL"],
-      ["AI & Data", "Machine Learning, Deep Learning, NLP, OpenAI SDK, Retrieval-Augmented Generation (RAG), Image Processing"],
-      ["Real-Time & Native", "WebRTC, LiveKit, Socket.IO, end-to-end encryption, native React Native/Expo modules, Turborepo/Yarn Berry monorepos"],
-      ["Cloud & DevOps", "AWS, Google Cloud, Docker, CI/CD, Git"],
-      ["Security & Networking", "Wireshark, Burp Suite, Nmap, Kali Linux, network fundamentals"],
-      ["Tools & Methods", "Figma, Postman, QGIS, Odoo, Claude (AI-assisted development), UML, Agile, Merise (MCD/MLD/MCT), Design Patterns"],
-      ["Release & Deployment", "Google Play Console, Apple App Store Connect / TestFlight, CodePush OTA updates, Docker, GitHub Actions CI/CD, Fastlane-style versioned release pipelines"],
-      ["Digital Marketing", "Facebook & LinkedIn Page management, Meta Ads Manager campaign creation, social media marketing"]
-    ],
-    "experience_heading": "Project Experience (Freelance)",
-    "projects": [
-      {
-        "title": "Nougta – Multi-Tenant Point-of-Sale System",
-        "dates": "2025 – Present",
-        "bullets": [
-          "Building an offline-first POS mobile app (React Native, WatermelonDB) with real-time multi-device sync via Firebase Firestore and FCM.",
-          "Developed the NestJS/MongoDB backend and Next.js admin dashboard, ecommerce storefront, and accounting module.",
-          "Own end-to-end release management: versioned AAB/APK and iOS release builds, Play Store and App Store Connect submissions, CodePush OTA updates, and a custom version-guard script enforcing Play Store/App Store versioning rules in CI.",
-          "Set up Docker-based deployment and GitHub Actions CI/CD pipelines for the backend and web apps."
-        ]
+  "variants": {
+    "tech": {
+      "en": {
+        "name": "DEIDINE SIDINA",
+        "job_title": "Software Engineer",
+        "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine  |  github.com/deidine",
+        "summary_heading": "Professional Summary",
+        "summary_text": "Software engineer with experience delivering full-stack web, mobile, and desktop applications across real estate, e-commerce, government, and fintech-adjacent projects. Skilled in React/Next.js, React Native, Spring Boot, and Python, with hands-on experience in AI integration (OpenAI SDK, RAG), cloud deployment (AWS, GCP), and both SQL and NoSQL database design.",
+        "skills_heading": "Skills",
+        "skills": [
+          ["Languages", "JavaScript, TypeScript, Python, Java, C, C++, PHP, Dart, SQL"],
+          ["Frontend & Mobile", "React, Next.js, Angular, Vue.js, React Native, Electron, HTML, CSS, Tailwind CSS, Bootstrap"],
+          ["Backend", "Spring Boot, Hibernate/JPA, Laravel, Django, REST API, SOAP"],
+          ["Databases", "MySQL, PostgreSQL, MongoDB, Firebase, Supabase, SQL Server, NoSQL"],
+          ["AI & Data", "Machine Learning, Deep Learning, NLP, OpenAI SDK, Retrieval-Augmented Generation (RAG), Image Processing"],
+          ["Real-Time & Native", "WebRTC, LiveKit, Socket.IO, end-to-end encryption, native React Native/Expo modules, Turborepo/Yarn Berry monorepos"],
+          ["Cloud & DevOps", "AWS, Google Cloud, Docker, CI/CD, Git"],
+          ["Security & Networking", "Wireshark, Burp Suite, Nmap, Kali Linux, network fundamentals"],
+          ["Tools & Methods", "Figma, Postman, QGIS, Odoo, Claude (AI-assisted development), UML, Agile, Merise (MCD/MLD/MCT), Design Patterns"],
+          ["Release & Deployment", "Google Play Console, Apple App Store Connect / TestFlight, CodePush OTA updates, Docker, GitHub Actions CI/CD, Fastlane-style versioned release pipelines"],
+          ["Digital Marketing", "Facebook & LinkedIn Page management, Meta Ads Manager campaign creation, social media marketing"]
+        ],
+        "experience_heading": "Project Experience (Freelance)",
+        "projects": [
+          {"title": "Nougta – Multi-Tenant Point-of-Sale System", "dates": "2025 – Present", "bullets": [
+            "Building an offline-first POS mobile app (React Native, WatermelonDB) with real-time multi-device sync via Firebase Firestore and FCM.",
+            "Developed the NestJS/MongoDB backend and Next.js admin dashboard, ecommerce storefront, and accounting module.",
+            "Own end-to-end release management: versioned AAB/APK and iOS release builds, Play Store and App Store Connect submissions, CodePush OTA updates, and a custom version-guard script enforcing Play Store/App Store versioning rules in CI.",
+            "Set up Docker-based deployment and GitHub Actions CI/CD pipelines for the backend and web apps."
+          ]},
+          {"title": "Enterprise Communication Platform (Confidential) – Native E2E Encryption & WebRTC Modules", "dates": "2025 – Present", "bullets": [
+            "Contributed native React Native/Expo modules to a whitelabel, multi-client secure communication platform (institutional clients), focused on end-to-end encrypted peer-to-peer and group voice/video calling and messaging.",
+            "Built real-time WebRTC calling features on top of LiveKit and Socket.IO signaling for P2P and group calls.",
+            "Built a daily reporting feature letting each user submit a full activity report, aggregated for operational review.",
+            "Worked within a Yarn/Turborepo monorepo alongside dedicated mobile, dashboard, and infrastructure teams."
+          ]},
+          {"title": "Khidmaty – National Government Services Platform (Mobile, Backend & Ops)", "dates": "Nov 2024 – Present", "bullets": [
+            "Own end-to-end maintenance of a national government services platform serving 500,000+ users, covering vehicle registration/ownership transfer (ANRPTS, carte grise) and judicial record (casier judiciaire) requests with in-app PDF preview, share, and download.",
+            "Administer the production database, including regular backups and data integrity checks.",
+            "Release and maintain the app on both Google Play and the Apple App Store; resolve store policy reviews and compliance issues to keep releases approved and live.",
+            "Triage and fix client-reported bugs and mobile app crashes/memory issues; upgrade dependencies and OS/SDK targets to the latest supported versions.",
+            "Monitor the platform for security threats and apply security patches to protect user and government data.",
+            "Represent the engineering side in meetings with ministry officials and senior government stakeholders on requirements, incidents, and roadmap."
+          ]},
+          {"title": "Houwity – National Registry Mobile App (Frontend)", "dates": "Nov 2024 – Present", "bullets": [
+            "Built and maintain the mobile app frontend for Houwity, a national registry platform equivalent to Mauritania's official ANRPTS portal (anrpts.gov.mr), giving citizens mobile access to the same registry services as the Khidmaty app.",
+            "Own ongoing maintenance: feature updates, bug fixes, and alignment with backend/API changes as the registry system evolves."
+          ]},
+          {"title": "Temwine – Grocery Supply Chain Mobile App", "dates": "Oct 2024 – Present", "bullets": [
+            "Developing a React Native app with a Next.js/MongoDB backend to help low-income families purchase government-subsidized groceries.",
+            "Built APIs to verify beneficiary eligibility against the national ID registry and enforce one-purchase-per-day limits.",
+            "Implemented OTP verification and shipment notifications for store owners."
+          ]},
+          {"title": "Real Estate Listing Platform", "dates": "2024", "bullets": [
+            "Built a property listing website with city-based filtering for rentals and sales.",
+            "Improved SEO and set up analytics tracking (TTFB, FID, FCP) with Matomo and Google Analytics to monitor user behavior and bounce rate.",
+            "Technologies: Next.js, Supabase, Tailwind CSS."
+          ]},
+          {"title": "AI Chatbot with Retrieval-Augmented Generation", "dates": "2024", "bullets": [
+            "Built a GPT-based chat application with real-time response streaming using the OpenAI SDK.",
+            "Implemented RAG to answer company-specific and general-knowledge queries.",
+            "Technologies: Next.js, Supabase."
+          ]},
+          {"title": "E-Commerce Platform", "dates": "Mar – Apr 2024", "bullets": [
+            "Built an e-commerce site with product browsing, cart, and checkout, plus an admin dashboard for product, inventory, and warehouse management.",
+            "Deployed to AWS and Hostinger and configured a VPS with a custom domain for production hosting.",
+            "Technologies: Spring Boot, Hibernate/JPA, React."
+          ]},
+          {"title": "Custom Form Builder", "dates": "2023 – 2024", "bullets": [
+            "Built a drag-and-drop form builder (file uploads, dates, checkboxes, radio buttons, text fields) with live style customization.",
+            "Added code export to Flutter, React, Next.js, and HTML, plus form sharing and submission collection.",
+            "Technologies: Next.js, Supabase."
+          ]},
+          {"title": "Stadium Booking Mobile App", "dates": "Sep – Dec 2023", "bullets": [
+            "Built a mobile app for booking football stadiums, with availability browsing and payment-proof upload for owner validation.",
+            "Built owner-side tools for managing stadiums and tracking reservations.",
+            "Technologies: Flutter, Dart, Django, MySQL, REST API, GetX, Google Maps."
+          ]},
+          {"title": "Point-of-Sale & Inventory Management System", "dates": "Jul 2023", "bullets": [
+            "Built a desktop POS application supporting cash, credit, VAT, and bank payment types, with low-stock alerts and sales/profit reporting.",
+            "Implemented client debt tracking, transaction history, and automated database backups.",
+            "Technologies: Java, Swing, MySQL, Hibernate, MVC."
+          ]},
+          {"title": "Bus Fleet & Passenger Management System", "dates": "Jul 2023", "bullets": [
+            "Built a desktop app for a bus agency to manage inter-city trips, seat booking, and worker/package tracking.",
+            "Prevented duplicate seat assignments and generated printable passenger manifests per trip.",
+            "Technologies: Python, Tkinter, MySQL."
+          ]},
+          {"title": "Freelance Marketplace Platform", "dates": "2023", "bullets": [
+            "Built a freelance marketplace connecting freelancers with clients, including profiles, job requests, and fee collection.",
+            "Technologies: HTML, CSS, JavaScript, PHP, MySQL, Bootstrap."
+          ]},
+          {"title": "Inventory Management System – Ministry of Technology Transformation", "dates": "2023", "bullets": [
+            "Developed an inventory tracking system for stock levels, transactions, and reporting for a government ministry.",
+            "Technologies: Spring Boot, Hibernate/JPA, Angular."
+          ]},
+          {"title": "Bus Travel Booking Website", "dates": "2020", "bullets": [
+            "Built a website for bus seat booking and passenger management, with printable passenger lists for security checkpoints.",
+            "Hardened the application against SQL injection, XSS, and HTML injection.",
+            "Technologies: Spring Boot, Hibernate/JPA, React, MySQL."
+          ]}
+        ],
+        "education_heading": "Education",
+        "education": [
+          {"title": "Ph.D. in Secure Distributed Systems (2nd year) – University of Nouakchott", "dates": "2024 – Present"},
+          {"title": "Master's in Information Technology – University of Nouakchott", "dates": "2022 – 2024"},
+          {"title": "Bachelor's in Development Administration (Internet & Intranet) – University of Nouakchott", "dates": "2019 – 2022"},
+          {"title": "Baccalauréat, Mathematics (Bac C) – Lycée Atar", "dates": "2016 – 2019"}
+        ],
+        "training_heading": "Professional Training",
+        "training": [
+          "Artificial Intelligence, Office Automation, Business Management, and Soft Skills (2020 – 2023)",
+          "Digital Marketing: Facebook & LinkedIn Page management and paid ad campaign creation (2020 – 2023)"
+        ],
+        "languages_heading": "Languages",
+        "languages_text": "Arabic (Native)  •  French (Fluent)  •  English (Fluent)"
       },
-      {
-        "title": "Enterprise Communication Platform (Confidential) – Native E2E Encryption & WebRTC Modules",
-        "dates": "2025 – Present",
-        "bullets": [
-          "Contributed native React Native/Expo modules to a whitelabel, multi-client secure communication platform (institutional clients), focused on end-to-end encrypted peer-to-peer and group voice/video calling and messaging.",
-          "Built real-time WebRTC calling features on top of LiveKit and Socket.IO signaling for P2P and group calls.",
-          "Built a daily reporting feature letting each user submit a full activity report, aggregated for operational review.",
-          "Worked within a Yarn/Turborepo monorepo alongside dedicated mobile, dashboard, and infrastructure teams."
-        ]
-      },
-      {
-        "title": "Khidmaty – National Government Services Platform (Mobile, Backend & Ops)",
-        "dates": "Nov 2024 – Present",
-        "bullets": [
-          "Own end-to-end maintenance of a national government services platform serving 500,000+ users, covering vehicle registration/ownership transfer (ANRPTS, carte grise) and judicial record (casier judiciaire) requests with in-app PDF preview, share, and download.",
-          "Administer the production database, including regular backups and data integrity checks.",
-          "Release and maintain the app on both Google Play and the Apple App Store; resolve store policy reviews and compliance issues to keep releases approved and live.",
-          "Triage and fix client-reported bugs and mobile app crashes/memory issues; upgrade dependencies and OS/SDK targets to the latest supported versions.",
-          "Monitor the platform for security threats and apply security patches to protect user and government data.",
-          "Represent the engineering side in meetings with ministry officials and senior government stakeholders on requirements, incidents, and roadmap."
-        ]
-      },
-      {
-        "title": "Houwity – National Registry Mobile App (Frontend)",
-        "dates": "Nov 2024 – Present",
-        "bullets": [
-          "Built and maintain the mobile app frontend for Houwity, a national registry platform equivalent to Mauritania's official ANRPTS portal (anrpts.gov.mr), giving citizens mobile access to the same registry services as the Khidmaty app.",
-          "Own ongoing maintenance: feature updates, bug fixes, and alignment with backend/API changes as the registry system evolves."
-        ]
-      },
-      {
-        "title": "Temwine – Grocery Supply Chain Mobile App",
-        "dates": "Oct 2024 – Present",
-        "bullets": [
-          "Developing a React Native app with a Next.js/MongoDB backend to help low-income families purchase government-subsidized groceries.",
-          "Built APIs to verify beneficiary eligibility against the national ID registry and enforce one-purchase-per-day limits.",
-          "Implemented OTP verification and shipment notifications for store owners."
-        ]
-      },
-      {
-        "title": "Real Estate Listing Platform",
-        "dates": "2024",
-        "bullets": [
-          "Built a property listing website with city-based filtering for rentals and sales.",
-          "Improved SEO and set up analytics tracking (TTFB, FID, FCP) with Matomo and Google Analytics to monitor user behavior and bounce rate.",
-          "Technologies: Next.js, Supabase, Tailwind CSS."
-        ]
-      },
-      {
-        "title": "AI Chatbot with Retrieval-Augmented Generation",
-        "dates": "2024",
-        "bullets": [
-          "Built a GPT-based chat application with real-time response streaming using the OpenAI SDK.",
-          "Implemented RAG to answer company-specific and general-knowledge queries.",
-          "Technologies: Next.js, Supabase."
-        ]
-      },
-      {
-        "title": "E-Commerce Platform",
-        "dates": "Mar – Apr 2024",
-        "bullets": [
-          "Built an e-commerce site with product browsing, cart, and checkout, plus an admin dashboard for product, inventory, and warehouse management.",
-          "Deployed to AWS and Hostinger and configured a VPS with a custom domain for production hosting.",
-          "Technologies: Spring Boot, Hibernate/JPA, React."
-        ]
-      },
-      {
-        "title": "Custom Form Builder",
-        "dates": "2023 – 2024",
-        "bullets": [
-          "Built a drag-and-drop form builder (file uploads, dates, checkboxes, radio buttons, text fields) with live style customization.",
-          "Added code export to Flutter, React, Next.js, and HTML, plus form sharing and submission collection.",
-          "Technologies: Next.js, Supabase."
-        ]
-      },
-      {
-        "title": "Stadium Booking Mobile App",
-        "dates": "Sep – Dec 2023",
-        "bullets": [
-          "Built a mobile app for booking football stadiums, with availability browsing and payment-proof upload for owner validation.",
-          "Built owner-side tools for managing stadiums and tracking reservations.",
-          "Technologies: Flutter, Dart, Django, MySQL, REST API, GetX, Google Maps."
-        ]
-      },
-      {
-        "title": "Point-of-Sale & Inventory Management System",
-        "dates": "Jul 2023",
-        "bullets": [
-          "Built a desktop POS application supporting cash, credit, VAT, and bank payment types, with low-stock alerts and sales/profit reporting.",
-          "Implemented client debt tracking, transaction history, and automated database backups.",
-          "Technologies: Java, Swing, MySQL, Hibernate, MVC."
-        ]
-      },
-      {
-        "title": "Bus Fleet & Passenger Management System",
-        "dates": "Jul 2023",
-        "bullets": [
-          "Built a desktop app for a bus agency to manage inter-city trips, seat booking, and worker/package tracking.",
-          "Prevented duplicate seat assignments and generated printable passenger manifests per trip.",
-          "Technologies: Python, Tkinter, MySQL."
-        ]
-      },
-      {
-        "title": "Freelance Marketplace Platform",
-        "dates": "2023",
-        "bullets": [
-          "Built a freelance marketplace connecting freelancers with clients, including profiles, job requests, and fee collection.",
-          "Technologies: HTML, CSS, JavaScript, PHP, MySQL, Bootstrap."
-        ]
-      },
-      {
-        "title": "Inventory Management System – Ministry of Technology Transformation",
-        "dates": "2023",
-        "bullets": [
-          "Developed an inventory tracking system for stock levels, transactions, and reporting for a government ministry.",
-          "Technologies: Spring Boot, Hibernate/JPA, Angular."
-        ]
-      },
-      {
-        "title": "Bus Travel Booking Website",
-        "dates": "2020",
-        "bullets": [
-          "Built a website for bus seat booking and passenger management, with printable passenger lists for security checkpoints.",
-          "Hardened the application against SQL injection, XSS, and HTML injection.",
-          "Technologies: Spring Boot, Hibernate/JPA, React, MySQL."
-        ]
+      "fr": {
+        "name": "DEIDINE SIDINA",
+        "job_title": "Ingénieur Logiciel",
+        "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine  |  github.com/deidine",
+        "summary_heading": "Profil",
+        "summary_text": "Ingénieur logiciel avec une expérience dans la livraison d'applications web, mobiles et desktop full-stack pour des projets dans l'immobilier, l'e-commerce, le secteur public et la fintech. Maîtrise de React/Next.js, React Native, Spring Boot et Python, avec une expérience pratique de l'intégration IA (OpenAI SDK, RAG), du déploiement cloud (AWS, GCP) et de la conception de bases de données SQL et NoSQL.",
+        "skills_heading": "Compétences",
+        "skills": [
+          ["Langages", "JavaScript, TypeScript, Python, Java, C, C++, PHP, Dart, SQL"],
+          ["Frontend & Mobile", "React, Next.js, Angular, Vue.js, React Native, Electron, HTML, CSS, Tailwind CSS, Bootstrap"],
+          ["Backend", "Spring Boot, Hibernate/JPA, Laravel, Django, REST API, SOAP"],
+          ["Bases de données", "MySQL, PostgreSQL, MongoDB, Firebase, Supabase, SQL Server, NoSQL"],
+          ["IA & Données", "Machine Learning, Deep Learning, NLP, OpenAI SDK, Retrieval-Augmented Generation (RAG), traitement d'image"],
+          ["Temps réel & Natif", "WebRTC, LiveKit, Socket.IO, chiffrement de bout en bout, modules natifs React Native/Expo, monorepos Turborepo/Yarn Berry"],
+          ["Cloud & DevOps", "AWS, Google Cloud, Docker, CI/CD, Git"],
+          ["Sécurité & Réseaux", "Wireshark, Burp Suite, Nmap, Kali Linux, fondamentaux réseau"],
+          ["Outils & Méthodes", "Figma, Postman, QGIS, Odoo, Claude (développement assisté par IA), UML, Agile, Merise (MCD/MLD/MCT), Design Patterns"],
+          ["Publication & Déploiement", "Google Play Console, Apple App Store Connect / TestFlight, mises à jour OTA CodePush, Docker, CI/CD GitHub Actions, pipelines de release versionnés"],
+          ["Marketing digital", "Gestion de pages Facebook & LinkedIn, création de campagnes Meta Ads Manager, marketing sur les réseaux sociaux"]
+        ],
+        "experience_heading": "Expérience Projets (Freelance)",
+        "projects": [
+          {"title": "Nougta – Système de Point de Vente Multi-Boutiques", "dates": "2025 – Présent", "bullets": [
+            "Développement d'une application POS mobile offline-first (React Native, WatermelonDB) avec synchronisation multi-appareils en temps réel via Firebase Firestore et FCM.",
+            "Développement du backend NestJS/MongoDB ainsi que du tableau de bord admin, de la boutique e-commerce et du module comptabilité en Next.js.",
+            "Gestion complète des mises en production : builds AAB/APK et iOS versionnés, soumissions Play Store et App Store Connect, mises à jour OTA CodePush, et un script de contrôle de version personnalisé appliquant les règles de versioning Play Store/App Store en CI.",
+            "Mise en place du déploiement Docker et des pipelines CI/CD GitHub Actions pour le backend et les applications web."
+          ]},
+          {"title": "Plateforme de Communication d'Entreprise (Confidentiel) – Modules Natifs de Chiffrement E2E & WebRTC", "dates": "2025 – Présent", "bullets": [
+            "Contribution à des modules natifs React Native/Expo pour une plateforme de communication sécurisée en marque blanche destinée à des clients institutionnels, axée sur les appels vocaux/vidéo et la messagerie chiffrés de bout en bout, en pair-à-pair et en groupe.",
+            "Développement de fonctionnalités d'appel WebRTC en temps réel au-dessus de LiveKit et de la signalisation Socket.IO pour les appels P2P et de groupe.",
+            "Développement d'une fonctionnalité de rapport journalier permettant à chaque utilisateur de soumettre un rapport d'activité complet, agrégé pour le suivi opérationnel.",
+            "Travail au sein d'un monorepo Yarn/Turborepo aux côtés d'équipes dédiées mobile, dashboard et infrastructure."
+          ]},
+          {"title": "Khidmaty – Plateforme Nationale de Services Publics (Mobile, Backend & Exploitation)", "dates": "Nov 2024 – Présent", "bullets": [
+            "Maintenance complète d'une plateforme nationale de services publics comptant plus de 500 000 utilisateurs, couvrant l'immatriculation/transfert de propriété de véhicules (ANRPTS, carte grise) et les demandes de casier judiciaire avec aperçu, partage et téléchargement de PDF dans l'application.",
+            "Administration de la base de données de production, incluant sauvegardes régulières et contrôles d'intégrité des données.",
+            "Publication et maintenance de l'application sur Google Play et l'Apple App Store ; résolution des revues de conformité aux politiques des stores pour maintenir les versions approuvées et en ligne.",
+            "Diagnostic et correction des bugs remontés par les clients ainsi que des plantages/problèmes de mémoire de l'application mobile ; mise à jour des dépendances et des cibles OS/SDK vers les dernières versions supportées.",
+            "Surveillance de la plateforme contre les menaces de sécurité et application de correctifs pour protéger les données des utilisateurs et de l'État.",
+            "Représentation de l'équipe technique lors de réunions avec des responsables ministériels et des parties prenantes gouvernementales de haut niveau sur les besoins, incidents et la feuille de route."
+          ]},
+          {"title": "Houwity – Application Mobile de Registre National (Frontend)", "dates": "Nov 2024 – Présent", "bullets": [
+            "Développement et maintenance du frontend de l'application mobile Houwity, une plateforme de registre national équivalente au portail officiel ANRPTS de Mauritanie (anrpts.gov.mr), donnant aux citoyens un accès mobile aux mêmes services de registre que l'application Khidmaty.",
+            "Maintenance continue : mises à jour de fonctionnalités, corrections de bugs et alignement avec les évolutions du backend/API du système de registre."
+          ]},
+          {"title": "Temwine – Application Mobile de Chaîne d'Approvisionnement pour Épiceries", "dates": "Oct 2024 – Présent", "bullets": [
+            "Développement d'une application React Native avec un backend Next.js/MongoDB pour aider les familles à faible revenu à acheter des produits subventionnés par l'État.",
+            "Développement d'API pour vérifier l'éligibilité des bénéficiaires via le registre national d'identité et appliquer une limite d'un achat par jour.",
+            "Mise en place de la vérification par OTP et des notifications d'arrivage pour les gérants de magasin."
+          ]},
+          {"title": "Plateforme d'Annonces Immobilières", "dates": "2024", "bullets": [
+            "Développement d'un site d'annonces immobilières avec filtrage par ville pour la location et la vente.",
+            "Amélioration du SEO et mise en place du suivi analytique (TTFB, FID, FCP) avec Matomo et Google Analytics pour suivre le comportement des utilisateurs et le taux de rebond.",
+            "Technologies : Next.js, Supabase, Tailwind CSS."
+          ]},
+          {"title": "Chatbot IA avec Retrieval-Augmented Generation", "dates": "2024", "bullets": [
+            "Développement d'une application de chat basée sur GPT avec streaming des réponses en temps réel via l'OpenAI SDK.",
+            "Mise en place du RAG pour répondre aux requêtes spécifiques à l'entreprise et aux requêtes générales.",
+            "Technologies : Next.js, Supabase."
+          ]},
+          {"title": "Plateforme E-Commerce", "dates": "Mars – Avr 2024", "bullets": [
+            "Développement d'un site e-commerce avec navigation produits, panier et paiement, ainsi qu'un tableau de bord admin pour la gestion des produits, des stocks et de l'entrepôt.",
+            "Déploiement sur AWS et Hostinger, configuration d'un VPS avec nom de domaine personnalisé pour l'hébergement en production.",
+            "Technologies : Spring Boot, Hibernate/JPA, React."
+          ]},
+          {"title": "Générateur de Formulaires Personnalisés", "dates": "2023 – 2024", "bullets": [
+            "Développement d'un générateur de formulaires par glisser-déposer (upload de fichiers, dates, cases à cocher, boutons radio, champs texte) avec personnalisation du style en direct.",
+            "Ajout de l'export du code vers Flutter, React, Next.js et HTML, ainsi que le partage de formulaires et la collecte de soumissions.",
+            "Technologies : Next.js, Supabase."
+          ]},
+          {"title": "Application Mobile de Réservation de Stades", "dates": "Sept – Déc 2023", "bullets": [
+            "Développement d'une application mobile de réservation de stades de football, avec consultation des disponibilités et envoi de preuve de paiement pour validation par le propriétaire.",
+            "Développement d'outils côté propriétaire pour gérer les stades et suivre les réservations.",
+            "Technologies : Flutter, Dart, Django, MySQL, REST API, GetX, Google Maps."
+          ]},
+          {"title": "Système de Point de Vente & Gestion des Stocks", "dates": "Juil 2023", "bullets": [
+            "Développement d'une application desktop de point de vente prenant en charge les paiements en espèces, à crédit, avec TVA et par banque, avec alertes de stock bas et rapports de ventes/profits.",
+            "Mise en place du suivi des dettes clients, de l'historique des transactions et des sauvegardes automatiques de la base de données.",
+            "Technologies : Java, Swing, MySQL, Hibernate, MVC."
+          ]},
+          {"title": "Système de Gestion de Flotte de Bus & Passagers", "dates": "Juil 2023", "bullets": [
+            "Développement d'une application desktop pour une agence de transport permettant de gérer les trajets inter-villes, la réservation de sièges et le suivi des employés/colis.",
+            "Prévention des doublons d'attribution de sièges et génération de manifestes de passagers imprimables par trajet.",
+            "Technologies : Python, Tkinter, MySQL."
+          ]},
+          {"title": "Plateforme de Freelance", "dates": "2023", "bullets": [
+            "Développement d'une marketplace de freelances mettant en relation freelances et clients, avec profils, demandes de mission et perception de commissions.",
+            "Technologies : HTML, CSS, JavaScript, PHP, MySQL, Bootstrap."
+          ]},
+          {"title": "Système de Gestion des Stocks – Ministère de la Transformation Numérique", "dates": "2023", "bullets": [
+            "Développement d'un système de suivi des stocks, des transactions et des rapports pour un ministère.",
+            "Technologies : Spring Boot, Hibernate/JPA, Angular."
+          ]},
+          {"title": "Site Web de Réservation de Voyages en Bus", "dates": "2020", "bullets": [
+            "Développement d'un site de réservation de sièges de bus et de gestion des passagers, avec listes de passagers imprimables pour les contrôles de sécurité.",
+            "Renforcement de la sécurité de l'application contre les injections SQL, XSS et HTML.",
+            "Technologies : Spring Boot, Hibernate/JPA, React, MySQL."
+          ]}
+        ],
+        "education_heading": "Formation Académique",
+        "education": [
+          {"title": "Doctorat en Systèmes Distribués Sécurisés (2ᵉ année) – Université de Nouakchott", "dates": "2024 – Présent"},
+          {"title": "Master en Technologies de l'Information – Université de Nouakchott", "dates": "2022 – 2024"},
+          {"title": "Licence en Administration du Développement (Internet & Intranet) – Université de Nouakchott", "dates": "2019 – 2022"},
+          {"title": "Baccalauréat, Mathématiques (Bac C) – Lycée d'Atar", "dates": "2016 – 2019"}
+        ],
+        "training_heading": "Formations Professionnelles",
+        "training": [
+          "Intelligence Artificielle, Bureautique, Gestion d'Entreprise et Soft Skills (2020 – 2023)",
+          "Marketing Digital : gestion de pages Facebook & LinkedIn et création de campagnes publicitaires (2020 – 2023)"
+        ],
+        "languages_heading": "Langues",
+        "languages_text": "Arabe (Langue maternelle)  •  Français (Courant)  •  Anglais (Courant)"
       }
-    ],
-    "education_heading": "Education",
-    "education": [
-      {"title": "Ph.D. in Secure Distributed Systems (2nd year) – University of Nouakchott", "dates": "2024 – Present"},
-      {"title": "Master's in Information Technology – University of Nouakchott", "dates": "2022 – 2024"},
-      {"title": "Bachelor's in Development Administration (Internet & Intranet) – University of Nouakchott", "dates": "2019 – 2022"},
-      {"title": "Baccalauréat, Mathematics (Bac C) – Lycée Atar", "dates": "2016 – 2019"}
-    ],
-    "training_heading": "Professional Training",
-    "training": [
-      "Artificial Intelligence, Office Automation, Business Management, and Soft Skills (2020 – 2023)",
-      "Digital Marketing: Facebook & LinkedIn Page management and paid ad campaign creation (2020 – 2023)"
-    ],
-    "languages_heading": "Languages",
-    "languages_text": "Arabic (Native)  •  French (Fluent)  •  English (Fluent)"
-  },
-  "fr": {
-    "name": "DEIDINE SIDINA",
-    "job_title": "Ingénieur Logiciel",
-    "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine  |  github.com/deidine",
-    "summary_heading": "Profil",
-    "summary_text": "Ingénieur logiciel avec une expérience dans la livraison d'applications web, mobiles et desktop full-stack pour des projets dans l'immobilier, l'e-commerce, le secteur public et la fintech. Maîtrise de React/Next.js, React Native, Spring Boot et Python, avec une expérience pratique de l'intégration IA (OpenAI SDK, RAG), du déploiement cloud (AWS, GCP) et de la conception de bases de données SQL et NoSQL.",
-    "skills_heading": "Compétences",
-    "skills": [
-      ["Langages", "JavaScript, TypeScript, Python, Java, C, C++, PHP, Dart, SQL"],
-      ["Frontend & Mobile", "React, Next.js, Angular, Vue.js, React Native, Electron, HTML, CSS, Tailwind CSS, Bootstrap"],
-      ["Backend", "Spring Boot, Hibernate/JPA, Laravel, Django, REST API, SOAP"],
-      ["Bases de données", "MySQL, PostgreSQL, MongoDB, Firebase, Supabase, SQL Server, NoSQL"],
-      ["IA & Données", "Machine Learning, Deep Learning, NLP, OpenAI SDK, Retrieval-Augmented Generation (RAG), traitement d'image"],
-      ["Temps réel & Natif", "WebRTC, LiveKit, Socket.IO, chiffrement de bout en bout, modules natifs React Native/Expo, monorepos Turborepo/Yarn Berry"],
-      ["Cloud & DevOps", "AWS, Google Cloud, Docker, CI/CD, Git"],
-      ["Sécurité & Réseaux", "Wireshark, Burp Suite, Nmap, Kali Linux, fondamentaux réseau"],
-      ["Outils & Méthodes", "Figma, Postman, QGIS, Odoo, Claude (développement assisté par IA), UML, Agile, Merise (MCD/MLD/MCT), Design Patterns"],
-      ["Publication & Déploiement", "Google Play Console, Apple App Store Connect / TestFlight, mises à jour OTA CodePush, Docker, CI/CD GitHub Actions, pipelines de release versionnés"],
-      ["Marketing digital", "Gestion de pages Facebook & LinkedIn, création de campagnes Meta Ads Manager, marketing sur les réseaux sociaux"]
-    ],
-    "experience_heading": "Expérience Projets (Freelance)",
-    "projects": [
-      {
-        "title": "Nougta – Système de Point de Vente Multi-Boutiques",
-        "dates": "2025 – Présent",
-        "bullets": [
-          "Développement d'une application POS mobile offline-first (React Native, WatermelonDB) avec synchronisation multi-appareils en temps réel via Firebase Firestore et FCM.",
-          "Développement du backend NestJS/MongoDB ainsi que du tableau de bord admin, de la boutique e-commerce et du module comptabilité en Next.js.",
-          "Gestion complète des mises en production : builds AAB/APK et iOS versionnés, soumissions Play Store et App Store Connect, mises à jour OTA CodePush, et un script de contrôle de version personnalisé appliquant les règles de versioning Play Store/App Store en CI.",
-          "Mise en place du déploiement Docker et des pipelines CI/CD GitHub Actions pour le backend et les applications web."
-        ]
+    },
+
+    "general": {
+      "en": {
+        "name": "DEIDINE SIDINA",
+        "job_title": "Operations, Project & Digital Marketing Professional",
+        "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine",
+        "summary_heading": "Professional Summary",
+        "summary_text": "Results-driven operations and project professional with a track record of owning digital platforms end-to-end for business clients — from requirements gathering and delivery planning to release management and day-to-day operations. Experienced in database and records administration, release/compliance management for app store submissions, client relationship management, and digital marketing (Facebook & LinkedIn Page management, paid ad campaigns, SEO and analytics).",
+        "skills_heading": "Core Skills",
+        "skills": [
+          ["Project & Program Management", "End-to-end project ownership, requirements gathering, planning, release management, risk and incident triage"],
+          ["Client & Stakeholder Relations", "Client relationship management; cross-team coordination; requirements and roadmap alignment with stakeholders"],
+          ["Operations & Records Administration", "Database and records administration, scheduled backups, data integrity checks, release/compliance reviews"],
+          ["Digital Marketing & Social Media", "Facebook & LinkedIn Page management, Meta Ads Manager campaign creation, SEO and web analytics (Google Analytics, Matomo, Core Web Vitals)"],
+          ["Business Development & Client Support", "Freelance client acquisition and delivery across 15+ projects; issue triage and resolution; client debt/transaction tracking"],
+          ["Office Automation & Reporting", "Daily activity reporting processes, structured documentation, office automation tools"],
+          ["Methods & Tools", "Agile, Merise (MCD/MLD/MCT), UML, Odoo, QGIS, Figma, Notion, Meta Business Suite"],
+          ["Languages", "Arabic (Native), French (Fluent), English (Fluent)"]
+        ],
+        "experience_heading": "Project & Operations Experience (Freelance)",
+        "projects": [
+          {"title": "Nougta – Multi-Tenant Point-of-Sale Platform", "dates": "2025 – Present", "bullets": [
+            "Own the platform end-to-end: requirements, delivery planning, and release management across mobile, backend, and two web applications (admin dashboard and storefront).",
+            "Administer the production database and coordinate scheduled backups across multiple client shops.",
+            "Manage the release and compliance pipeline for both the Google Play Store and Apple App Store."
+          ]},
+          {"title": "Real Estate Listing Platform – SEO & Analytics", "dates": "2024", "bullets": [
+            "Delivered a property listing platform end-to-end; owned SEO strategy and analytics setup (Matomo, Google Analytics, Core Web Vitals) to track user behavior and conversion.",
+            "Used behavior and bounce-rate data to guide content and page-structure improvements, keeping property owners' listings visible to a wider audience."
+          ]},
+          {"title": "E-Commerce Platform", "dates": "Mar – Apr 2024", "bullets": [
+            "Delivered a full e-commerce platform including the customer-facing storefront experience (browsing, cart, checkout) and an admin dashboard for product, inventory, and warehouse management.",
+            "Managed production hosting and deployment."
+          ]},
+          {"title": "Freelance Marketplace Platform", "dates": "2023", "bullets": [
+            "Delivered a two-sided marketplace connecting freelancers and clients through public profiles and job requests, designed to drive discovery and repeat engagement."
+          ]},
+          {"title": "Custom Form Builder", "dates": "2023 – 2024", "bullets": [
+            "Delivered a self-service form and survey tool with shareable links and submission collection, similar to Google Forms/Typeform, used for lead capture and feedback collection."
+          ]},
+          {"title": "Bus Fleet & Passenger Management System", "dates": "Jul 2023", "bullets": [
+            "Coordinated inter-city bus trip records, seat bookings, and worker/package tracking for a transport agency, including printable passenger manifests for each trip."
+          ]},
+          {"title": "Point-of-Sale & Inventory Management System", "dates": "Jul 2023", "bullets": [
+            "Maintained client, product, and supplier records; tracked client debt and transaction history; managed routine database backups."
+          ]}
+        ],
+        "education_heading": "Education",
+        "education": [
+          {"title": "Master's in Information Technology – University of Nouakchott", "dates": "2022 – 2024"},
+          {"title": "Bachelor's in Development Administration (Internet & Intranet) – University of Nouakchott", "dates": "2019 – 2022"},
+          {"title": "Baccalauréat, Mathematics (Bac C) – Lycée Atar", "dates": "2016 – 2019"}
+        ],
+        "training_heading": "Professional Training",
+        "training": [
+          "Business Management, Office Automation, and Soft Skills (2020 – 2023)",
+          "Digital Marketing: Facebook & LinkedIn Page management and paid ad campaign creation (2020 – 2023)"
+        ],
+        "languages_heading": "Languages",
+        "languages_text": "Arabic (Native)  •  French (Fluent)  •  English (Fluent)"
       },
-      {
-        "title": "Plateforme de Communication d'Entreprise (Confidentiel) – Modules Natifs de Chiffrement E2E & WebRTC",
-        "dates": "2025 – Présent",
-        "bullets": [
-          "Contribution à des modules natifs React Native/Expo pour une plateforme de communication sécurisée en marque blanche destinée à des clients institutionnels, axée sur les appels vocaux/vidéo et la messagerie chiffrés de bout en bout, en pair-à-pair et en groupe.",
-          "Développement de fonctionnalités d'appel WebRTC en temps réel au-dessus de LiveKit et de la signalisation Socket.IO pour les appels P2P et de groupe.",
-          "Développement d'une fonctionnalité de rapport journalier permettant à chaque utilisateur de soumettre un rapport d'activité complet, agrégé pour le suivi opérationnel.",
-          "Travail au sein d'un monorepo Yarn/Turborepo aux côtés d'équipes dédiées mobile, dashboard et infrastructure."
-        ]
-      },
-      {
-        "title": "Khidmaty – Plateforme Nationale de Services Publics (Mobile, Backend & Exploitation)",
-        "dates": "Nov 2024 – Présent",
-        "bullets": [
-          "Maintenance complète d'une plateforme nationale de services publics comptant plus de 500 000 utilisateurs, couvrant l'immatriculation/transfert de propriété de véhicules (ANRPTS, carte grise) et les demandes de casier judiciaire avec aperçu, partage et téléchargement de PDF dans l'application.",
-          "Administration de la base de données de production, incluant sauvegardes régulières et contrôles d'intégrité des données.",
-          "Publication et maintenance de l'application sur Google Play et l'Apple App Store ; résolution des revues de conformité aux politiques des stores pour maintenir les versions approuvées et en ligne.",
-          "Diagnostic et correction des bugs remontés par les clients ainsi que des plantages/problèmes de mémoire de l'application mobile ; mise à jour des dépendances et des cibles OS/SDK vers les dernières versions supportées.",
-          "Surveillance de la plateforme contre les menaces de sécurité et application de correctifs pour protéger les données des utilisateurs et de l'État.",
-          "Représentation de l'équipe technique lors de réunions avec des responsables ministériels et des parties prenantes gouvernementales de haut niveau sur les besoins, incidents et la feuille de route."
-        ]
-      },
-      {
-        "title": "Houwity – Application Mobile de Registre National (Frontend)",
-        "dates": "Nov 2024 – Présent",
-        "bullets": [
-          "Développement et maintenance du frontend de l'application mobile Houwity, une plateforme de registre national équivalente au portail officiel ANRPTS de Mauritanie (anrpts.gov.mr), donnant aux citoyens un accès mobile aux mêmes services de registre que l'application Khidmaty.",
-          "Maintenance continue : mises à jour de fonctionnalités, corrections de bugs et alignement avec les évolutions du backend/API du système de registre."
-        ]
-      },
-      {
-        "title": "Temwine – Application Mobile de Chaîne d'Approvisionnement pour Épiceries",
-        "dates": "Oct 2024 – Présent",
-        "bullets": [
-          "Développement d'une application React Native avec un backend Next.js/MongoDB pour aider les familles à faible revenu à acheter des produits subventionnés par l'État.",
-          "Développement d'API pour vérifier l'éligibilité des bénéficiaires via le registre national d'identité et appliquer une limite d'un achat par jour.",
-          "Mise en place de la vérification par OTP et des notifications d'arrivage pour les gérants de magasin."
-        ]
-      },
-      {
-        "title": "Plateforme d'Annonces Immobilières",
-        "dates": "2024",
-        "bullets": [
-          "Développement d'un site d'annonces immobilières avec filtrage par ville pour la location et la vente.",
-          "Amélioration du SEO et mise en place du suivi analytique (TTFB, FID, FCP) avec Matomo et Google Analytics pour suivre le comportement des utilisateurs et le taux de rebond.",
-          "Technologies : Next.js, Supabase, Tailwind CSS."
-        ]
-      },
-      {
-        "title": "Chatbot IA avec Retrieval-Augmented Generation",
-        "dates": "2024",
-        "bullets": [
-          "Développement d'une application de chat basée sur GPT avec streaming des réponses en temps réel via l'OpenAI SDK.",
-          "Mise en place du RAG pour répondre aux requêtes spécifiques à l'entreprise et aux requêtes générales.",
-          "Technologies : Next.js, Supabase."
-        ]
-      },
-      {
-        "title": "Plateforme E-Commerce",
-        "dates": "Mars – Avr 2024",
-        "bullets": [
-          "Développement d'un site e-commerce avec navigation produits, panier et paiement, ainsi qu'un tableau de bord admin pour la gestion des produits, des stocks et de l'entrepôt.",
-          "Déploiement sur AWS et Hostinger, configuration d'un VPS avec nom de domaine personnalisé pour l'hébergement en production.",
-          "Technologies : Spring Boot, Hibernate/JPA, React."
-        ]
-      },
-      {
-        "title": "Générateur de Formulaires Personnalisés",
-        "dates": "2023 – 2024",
-        "bullets": [
-          "Développement d'un générateur de formulaires par glisser-déposer (upload de fichiers, dates, cases à cocher, boutons radio, champs texte) avec personnalisation du style en direct.",
-          "Ajout de l'export du code vers Flutter, React, Next.js et HTML, ainsi que le partage de formulaires et la collecte de soumissions.",
-          "Technologies : Next.js, Supabase."
-        ]
-      },
-      {
-        "title": "Application Mobile de Réservation de Stades",
-        "dates": "Sept – Déc 2023",
-        "bullets": [
-          "Développement d'une application mobile de réservation de stades de football, avec consultation des disponibilités et envoi de preuve de paiement pour validation par le propriétaire.",
-          "Développement d'outils côté propriétaire pour gérer les stades et suivre les réservations.",
-          "Technologies : Flutter, Dart, Django, MySQL, REST API, GetX, Google Maps."
-        ]
-      },
-      {
-        "title": "Système de Point de Vente & Gestion des Stocks",
-        "dates": "Juil 2023",
-        "bullets": [
-          "Développement d'une application desktop de point de vente prenant en charge les paiements en espèces, à crédit, avec TVA et par banque, avec alertes de stock bas et rapports de ventes/profits.",
-          "Mise en place du suivi des dettes clients, de l'historique des transactions et des sauvegardes automatiques de la base de données.",
-          "Technologies : Java, Swing, MySQL, Hibernate, MVC."
-        ]
-      },
-      {
-        "title": "Système de Gestion de Flotte de Bus & Passagers",
-        "dates": "Juil 2023",
-        "bullets": [
-          "Développement d'une application desktop pour une agence de transport permettant de gérer les trajets inter-villes, la réservation de sièges et le suivi des employés/colis.",
-          "Prévention des doublons d'attribution de sièges et génération de manifestes de passagers imprimables par trajet.",
-          "Technologies : Python, Tkinter, MySQL."
-        ]
-      },
-      {
-        "title": "Plateforme de Freelance",
-        "dates": "2023",
-        "bullets": [
-          "Développement d'une marketplace de freelances mettant en relation freelances et clients, avec profils, demandes de mission et perception de commissions.",
-          "Technologies : HTML, CSS, JavaScript, PHP, MySQL, Bootstrap."
-        ]
-      },
-      {
-        "title": "Système de Gestion des Stocks – Ministère de la Transformation Numérique",
-        "dates": "2023",
-        "bullets": [
-          "Développement d'un système de suivi des stocks, des transactions et des rapports pour un ministère.",
-          "Technologies : Spring Boot, Hibernate/JPA, Angular."
-        ]
-      },
-      {
-        "title": "Site Web de Réservation de Voyages en Bus",
-        "dates": "2020",
-        "bullets": [
-          "Développement d'un site de réservation de sièges de bus et de gestion des passagers, avec listes de passagers imprimables pour les contrôles de sécurité.",
-          "Renforcement de la sécurité de l'application contre les injections SQL, XSS et HTML.",
-          "Technologies : Spring Boot, Hibernate/JPA, React, MySQL."
-        ]
+      "fr": {
+        "name": "DEIDINE SIDINA",
+        "job_title": "Professionnel des Opérations, de la Gestion de Projet & du Marketing Digital",
+        "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine",
+        "summary_heading": "Profil",
+        "summary_text": "Professionnel des opérations et de la gestion de projet orienté résultats, avec un historique de gestion de plateformes numériques de bout en bout pour des clients privés — du recueil des besoins et de la planification de la livraison à la gestion des mises en production et des opérations quotidiennes. Expérience de l'administration de bases de données et de registres, de la gestion des mises en production/conformité pour les publications sur les stores, de la gestion de la relation client, et du marketing digital (gestion de pages Facebook & LinkedIn, campagnes publicitaires, SEO et analytique).",
+        "skills_heading": "Compétences Clés",
+        "skills": [
+          ["Gestion de Projet & de Programme", "Gestion de projet de bout en bout, recueil des besoins, planification, gestion des mises en production, gestion des risques et des incidents"],
+          ["Relations Client & Parties Prenantes", "Gestion de la relation client ; coordination interéquipes ; alignement des besoins et de la feuille de route avec les parties prenantes"],
+          ["Opérations & Administration de Registres", "Administration de bases de données et de registres, sauvegardes planifiées, contrôles d'intégrité des données, revues de mise en production/conformité"],
+          ["Marketing Digital & Réseaux Sociaux", "Gestion de pages Facebook & LinkedIn, création de campagnes Meta Ads Manager, SEO et analytique web (Google Analytics, Matomo, Core Web Vitals)"],
+          ["Développement Commercial & Support Client", "Acquisition et livraison de clients freelance sur plus de 15 projets ; traitement et résolution des demandes ; suivi des dettes/transactions clients"],
+          ["Bureautique & Reporting", "Processus de rapport d'activité journalier, documentation structurée, outils bureautiques"],
+          ["Méthodes & Outils", "Agile, Merise (MCD/MLD/MCT), UML, Odoo, QGIS, Figma, Notion, Meta Business Suite"],
+          ["Langues", "Arabe (Langue maternelle), Français (Courant), Anglais (Courant)"]
+        ],
+        "experience_heading": "Expérience Projets & Opérations (Freelance)",
+        "projects": [
+          {"title": "Nougta – Plateforme de Point de Vente Multi-Boutiques", "dates": "2025 – Présent", "bullets": [
+            "Gestion de bout en bout de la plateforme : besoins, planification de la livraison et gestion des mises en production sur mobile, backend et deux applications web (dashboard admin et boutique).",
+            "Administration de la base de données de production et coordination des sauvegardes planifiées pour plusieurs boutiques clientes.",
+            "Pilotage du pipeline de publication et de conformité sur Google Play et l'Apple App Store."
+          ]},
+          {"title": "Plateforme d'Annonces Immobilières – SEO & Analytique", "dates": "2024", "bullets": [
+            "Livraison de bout en bout d'une plateforme d'annonces immobilières ; responsable de la stratégie SEO et de la mise en place analytique (Matomo, Google Analytics, Core Web Vitals) pour suivre le comportement utilisateur et la conversion.",
+            "Utilisation des données de comportement et de taux de rebond pour orienter les améliorations de contenu et de structure de page, maximisant la visibilité des annonces des propriétaires."
+          ]},
+          {"title": "Plateforme E-Commerce", "dates": "Mars – Avr 2024", "bullets": [
+            "Livraison complète d'une plateforme e-commerce incluant l'expérience client (navigation, panier, paiement) et un tableau de bord admin pour la gestion des produits, des stocks et de l'entrepôt.",
+            "Gestion de l'hébergement et du déploiement en production."
+          ]},
+          {"title": "Plateforme de Freelance", "dates": "2023", "bullets": [
+            "Livraison d'une marketplace à deux versants mettant en relation freelances et clients via des profils publics et des demandes de mission, conçue pour favoriser la découverte et l'engagement récurrent."
+          ]},
+          {"title": "Générateur de Formulaires Personnalisés", "dates": "2023 – 2024", "bullets": [
+            "Livraison d'un outil de formulaires en libre-service avec liens partageables et collecte de soumissions, similaire à Google Forms/Typeform, utilisé pour la génération de leads et la collecte de retours."
+          ]},
+          {"title": "Système de Gestion de Flotte de Bus & Passagers", "dates": "Juil 2023", "bullets": [
+            "Coordination des registres de trajets inter-villes, réservations de sièges et suivi des employés/colis pour une agence de transport, avec manifestes de passagers imprimables par trajet."
+          ]},
+          {"title": "Système de Point de Vente & Gestion des Stocks", "dates": "Juil 2023", "bullets": [
+            "Tenue des registres clients, produits et fournisseurs ; suivi des dettes et de l'historique des transactions clients ; gestion des sauvegardes régulières de la base de données."
+          ]}
+        ],
+        "education_heading": "Formation Académique",
+        "education": [
+          {"title": "Master en Technologies de l'Information – Université de Nouakchott", "dates": "2022 – 2024"},
+          {"title": "Licence en Administration du Développement (Internet & Intranet) – Université de Nouakchott", "dates": "2019 – 2022"},
+          {"title": "Baccalauréat, Mathématiques (Bac C) – Lycée d'Atar", "dates": "2016 – 2019"}
+        ],
+        "training_heading": "Formations Professionnelles",
+        "training": [
+          "Gestion d'Entreprise, Bureautique et Soft Skills (2020 – 2023)",
+          "Marketing Digital : gestion de pages Facebook & LinkedIn et création de campagnes publicitaires (2020 – 2023)"
+        ],
+        "languages_heading": "Langues",
+        "languages_text": "Arabe (Langue maternelle)  •  Français (Courant)  •  Anglais (Courant)"
       }
-    ],
-    "education_heading": "Formation Académique",
-    "education": [
-      {"title": "Doctorat en Systèmes Distribués Sécurisés (2ᵉ année) – Université de Nouakchott", "dates": "2024 – Présent"},
-      {"title": "Master en Technologies de l'Information – Université de Nouakchott", "dates": "2022 – 2024"},
-      {"title": "Licence en Administration du Développement (Internet & Intranet) – Université de Nouakchott", "dates": "2019 – 2022"},
-      {"title": "Baccalauréat, Mathématiques (Bac C) – Lycée d'Atar", "dates": "2016 – 2019"}
-    ],
-    "training_heading": "Formations Professionnelles",
-    "training": [
-      "Intelligence Artificielle, Bureautique, Gestion d'Entreprise et Soft Skills (2020 – 2023)",
-      "Marketing Digital : gestion de pages Facebook & LinkedIn et création de campagnes publicitaires (2020 – 2023)"
-    ],
-    "languages_heading": "Langues",
-    "languages_text": "Arabe (Langue maternelle)  •  Français (Courant)  •  Anglais (Courant)"
+    }
   }
 }

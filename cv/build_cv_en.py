@@ -243,5 +243,5 @@ add_bullet("Digital Marketing: Facebook & LinkedIn Page management and paid ad c
 add_heading("Languages")
 add_plain("Arabic (Native)  •  French (Fluent)  •  English (Fluent)", space_after=2)
 
-doc.save("/Users/deidinecheigeur/Downloads/Deidine_Sidina_CV_ATS.docx")
+doc.save("/Users/deidinecheigeur/Downloads/Deidine_CV.docx")
 print("saved")

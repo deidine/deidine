@@ -234,5 +234,5 @@ add_bullet("Marketing Digital : gestion de pages Facebook & LinkedIn et créatio
 add_heading("Langues")
 add_plain("Arabe (Langue maternelle)  •  Français (Courant)  •  Anglais (Courant)", space_after=2)
 
-doc.save("/Users/deidinecheigeur/Downloads/Deidine_Sidina_CV_ATS_FR.docx")
+doc.save("/Users/deidinecheigeur/Downloads/Deidine_CV_FR.docx")
 print("saved")

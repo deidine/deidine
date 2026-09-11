@@ -271,19 +271,28 @@ def build_pdf(d: dict, out_path: Path):
 
 
 # ----------------------------------------------------------------------
+VARIANT_LABELS = {
+    "tech": "Tech",
+    "general": "General",
+}
+
+
 def main():
-    data = load_data()
+    data = load_data()["variants"]
     out_dir = HERE / "output"
     out_dir.mkdir(exist_ok=True)
 
-    for lang, label in [("en", "EN"), ("fr", "FR")]:
-        d = data[lang]
-        docx_path = out_dir / f"Deidine_Sidina_CV_{label}.docx"
-        pdf_path = out_dir / f"Deidine_Sidina_CV_{label}.pdf"
-        build_docx(d, docx_path)
-        build_pdf(d, pdf_path)
-        print(f"[{label}] {docx_path}")
-        print(f"[{label}] {pdf_path}")
+    for variant, vlabel in VARIANT_LABELS.items():
+        if variant not in data:
+            continue
+        for lang, label in [("en", "EN"), ("fr", "FR")]:
+            d = data[variant][lang]
+            docx_path = out_dir / f"Deidine_CV_{vlabel}_{label}.docx"
+            pdf_path = out_dir / f"Deidine_CV_{vlabel}_{label}.pdf"
+            build_docx(d, docx_path)
+            build_pdf(d, pdf_path)
+            print(f"[{vlabel}/{label}] {docx_path}")
+            print(f"[{vlabel}/{label}] {pdf_path}")
 
 
 if __name__ == "__main__":
