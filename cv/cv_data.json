@@ -73,7 +73,8 @@
               "Developed the NestJS/MongoDB backend and Next.js admin dashboard, ecommerce storefront, and accounting module.",
               "Own end-to-end release management: versioned AAB/APK and iOS release builds, Play Store and App Store Connect submissions, CodePush OTA updates, and a custom version-guard script enforcing Play Store/App Store versioning rules in CI.",
               "Set up Docker-based deployment and GitHub Actions CI/CD pipelines for the backend and web apps."
-            ]
+            ],
+            "url": "https://nougta.com/"
           },
           {
             "title": "Enterprise Communication Platform (Confidential) – Native E2E Encryption & WebRTC Modules",
@@ -97,7 +98,8 @@
               "Release and maintain the app on both Google Play and the Apple App Store; resolve store policy reviews and compliance issues to keep releases approved and live.",
               "Triage and fix client-reported bugs and mobile app crashes/memory issues; monitor the platform for security threats and apply patches; upgrade dependencies and OS/SDK targets to the latest supported versions.",
               "Represent the engineering side in meetings with ministry officials and senior government stakeholders on requirements, incidents, and roadmap."
-            ]
+            ],
+            "url": "https://khidmaty.gov.mr/"
           },
           {
             "title": "Houwity – National Registry Mobile App (Frontend)",
@@ -106,7 +108,8 @@
               "Built and maintain the mobile app frontend for Houwity, a national registry platform equivalent to Mauritania's official ANRPTS portal (anrpts.gov.mr), giving citizens mobile access to the same registry services as the Khidmaty app.",
               "Connected Houwity to the migrated Carte Grise backend and the shared Khidmaty OIDC identity provider for unified authentication across registry services.",
               "Own ongoing maintenance: feature updates, bug fixes, and alignment with backend/API changes as the registry system evolves."
-            ]
+            ],
+            "url": "https://anrpts.gov.mr/"
           },
           {
             "title": "Temwine – Grocery Supply Chain Mobile App",
@@ -305,7 +308,8 @@
               "Développement du backend NestJS/MongoDB ainsi que du tableau de bord admin, de la boutique e-commerce et du module comptabilité en Next.js.",
               "Gestion complète des mises en production : builds AAB/APK et iOS versionnés, soumissions Play Store et App Store Connect, mises à jour OTA CodePush, et un script de contrôle de version personnalisé appliquant les règles de versioning Play Store/App Store en CI.",
               "Mise en place du déploiement Docker et des pipelines CI/CD GitHub Actions pour le backend et les applications web."
-            ]
+            ],
+            "url": "https://nougta.com/"
           },
           {
             "title": "Plateforme de Communication d'Entreprise (Confidentiel) – Modules Natifs de Chiffrement E2E & WebRTC",
@@ -329,7 +333,8 @@
               "Publication et maintenance de l'application sur Google Play et l'Apple App Store ; résolution des revues de conformité aux politiques des stores pour maintenir les versions approuvées et en ligne.",
               "Diagnostic et correction des bugs remontés par les clients ainsi que des plantages/problèmes de mémoire de l'application mobile ; surveillance de la plateforme contre les menaces de sécurité et application de correctifs ; mise à jour des dépendances et des cibles OS/SDK vers les dernières versions supportées.",
               "Représentation de l'équipe technique lors de réunions avec des responsables ministériels et des parties prenantes gouvernementales de haut niveau sur les besoins, incidents et la feuille de route."
-            ]
+            ],
+            "url": "https://khidmaty.gov.mr/"
           },
           {
             "title": "Houwity – Application Mobile de Registre National (Frontend)",
@@ -338,7 +343,8 @@
               "Développement et maintenance du frontend de l'application mobile Houwity, une plateforme de registre national équivalente au portail officiel ANRPTS de Mauritanie (anrpts.gov.mr), donnant aux citoyens un accès mobile aux mêmes services de registre que l'application Khidmaty.",
               "Connexion de Houwity au backend Carte Grise migré et au fournisseur d'identité OIDC partagé de Khidmaty pour une authentification unifiée entre services de registre.",
               "Maintenance continue : mises à jour de fonctionnalités, corrections de bugs et alignement avec les évolutions du backend/API du système de registre."
-            ]
+            ],
+            "url": "https://anrpts.gov.mr/"
           },
           {
             "title": "Temwine – Application Mobile de Chaîne d'Approvisionnement pour Épiceries",
@@ -521,7 +527,8 @@
               "Own the platform end-to-end: requirements, delivery planning, and release management across mobile, backend, and two web applications (admin dashboard and storefront).",
               "Administer the production database and coordinate scheduled backups across multiple client shops.",
               "Manage the release and compliance pipeline for both the Google Play Store and Apple App Store."
-            ]
+            ],
+            "url": "https://nougta.com/"
           },
           {
             "title": "Real Estate Listing Platform – SEO & Analytics",
@@ -645,7 +652,8 @@
               "Gestion de bout en bout de la plateforme : besoins, planification de la livraison et gestion des mises en production sur mobile, backend et deux applications web (dashboard admin et boutique).",
               "Administration de la base de données de production et coordination des sauvegardes planifiées pour plusieurs boutiques clientes.",
               "Pilotage du pipeline de publication et de conformité sur Google Play et l'Apple App Store."
-            ]
+            ],
+            "url": "https://nougta.com/"
           },
           {
             "title": "Plateforme d'Annonces Immobilières – SEO & Analytique",

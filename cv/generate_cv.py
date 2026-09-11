@@ -92,13 +92,16 @@ def build_docx(d: dict, out_path: Path):
         pPr.append(pBdr)
         return p
 
-    def add_entry_title(title, meta):
+    def add_entry_title(title, meta, url=None):
         p = doc.add_paragraph()
         p.paragraph_format.space_before = Pt(8)
         p.paragraph_format.space_after = Pt(0)
-        r1 = p.add_run(title)
-        r1.bold = True
-        r1.font.size = Pt(10.5)
+        if url:
+            add_hyperlink(p, url, title, size=10.5, bold=True)
+        else:
+            r1 = p.add_run(title)
+            r1.bold = True
+            r1.font.size = Pt(10.5)
         if meta:
             p.add_run("\t")
             r2 = p.add_run(meta)
@@ -122,7 +125,7 @@ def build_docx(d: dict, out_path: Path):
         run.font.size = Pt(10.5)
         return p
 
-    def add_hyperlink(paragraph, url, text, size=10):
+    def add_hyperlink(paragraph, url, text, size=10, bold=False):
         part = paragraph.part
         r_id = part.relate_to(url, RT.HYPERLINK, is_external=True)
 
@@ -136,6 +139,9 @@ def build_docx(d: dict, out_path: Path):
         rFonts.set(qn("w:ascii"), FONT)
         rFonts.set(qn("w:hAnsi"), FONT)
         rPr.append(rFonts)
+
+        if bold:
+            rPr.append(OxmlElement("w:b"))
 
         sz = OxmlElement("w:sz")
         sz.set(qn("w:val"), str(size * 2))
@@ -199,7 +205,7 @@ def build_docx(d: dict, out_path: Path):
     # Experience
     add_heading(d["experience_heading"])
     for proj in d["projects"]:
-        add_entry_title(proj["title"], proj["dates"])
+        add_entry_title(proj["title"], proj["dates"], url=proj.get("url"))
         for b in proj["bullets"]:
             add_bullet(b)
 
@@ -276,9 +282,10 @@ def build_pdf(d: dict, out_path: Path):
         story.append(Paragraph(text.upper(), heading_style))
         story.append(HRFlowable(width="100%", thickness=0.75, color="#000000", spaceAfter=4))
 
-    def add_entry(title, dates):
+    def add_entry(title, dates, url=None):
+        title_markup = f'<a href="{url}"><font color="#1155CC">{title}</font></a>' if url else title
         t = Table(
-            [[Paragraph(title, entry_title_style), Paragraph(dates, entry_dates_style)]],
+            [[Paragraph(title_markup, entry_title_style), Paragraph(dates, entry_dates_style)]],
             colWidths=[4.6 * inch, 1.9 * inch],
         )
         t.setStyle(TableStyle([
@@ -308,7 +315,7 @@ def build_pdf(d: dict, out_path: Path):
     # Experience
     add_heading(d["experience_heading"])
     for proj in d["projects"]:
-        add_entry(proj["title"], proj["dates"])
+        add_entry(proj["title"], proj["dates"], url=proj.get("url"))
         add_bullets(proj["bullets"])
 
     # Education
