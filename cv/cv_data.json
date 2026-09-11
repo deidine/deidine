@@ -6,7 +6,7 @@
         "job_title": "Software Engineer",
         "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine  |  github.com/deidine",
         "summary_heading": "Professional Summary",
-        "summary_text": "Software engineer with experience delivering full-stack web, mobile, and desktop applications across real estate, e-commerce, government, and fintech-adjacent projects. Skilled in React/Next.js, React Native, Spring Boot, and Python, with hands-on experience in AI integration (OpenAI SDK, RAG), cloud deployment (AWS, GCP), and both SQL and NoSQL database design.",
+        "summary_text": "Software engineer with experience delivering full-stack web, mobile, and desktop applications across real estate, e-commerce, government, and fintech-adjacent projects. Skilled in React/Next.js, React Native, Spring Boot, and Python, with hands-on experience in AI integration (OpenAI SDK, RAG), Kubernetes-based cloud deployment (AWS, GCP, Docker, Helm), OpenID Connect/SSO identity systems, and both SQL and NoSQL database design.",
         "skills_heading": "Skills",
         "skills": [
           ["Languages", "JavaScript, TypeScript, Python, Java, C, C++, PHP, Dart, SQL"],
@@ -15,7 +15,8 @@
           ["Databases", "MySQL, PostgreSQL, MongoDB, Firebase, Supabase, SQL Server, NoSQL"],
           ["AI & Data", "Machine Learning, Deep Learning, NLP, OpenAI SDK, Retrieval-Augmented Generation (RAG), Image Processing"],
           ["Real-Time & Native", "WebRTC, LiveKit, Socket.IO, end-to-end encryption, native React Native/Expo modules, Turborepo/Yarn Berry monorepos"],
-          ["Cloud & DevOps", "AWS, Google Cloud, Docker, CI/CD, Git"],
+          ["Identity & SSO", "OpenID Connect (OIDC), OAuth2, PKCE, Koa, oidc-provider, multi-service identity brokering"],
+          ["Cloud & DevOps", "AWS, Google Cloud, Docker, Kubernetes, Helm, Nginx, Caddy, CI/CD, Git"],
           ["Security & Networking", "Wireshark, Burp Suite, Nmap, Kali Linux, network fundamentals"],
           ["Tools & Methods", "Figma, Postman, QGIS, Odoo, Claude (AI-assisted development), UML, Agile, Merise (MCD/MLD/MCT), Design Patterns"],
           ["Release & Deployment", "Google Play Console, Apple App Store Connect / TestFlight, CodePush OTA updates, Docker, GitHub Actions CI/CD, Fastlane-style versioned release pipelines"],
@@ -37,14 +38,17 @@
           ]},
           {"title": "Khidmaty – National Government Services Platform (Mobile, Backend & Ops)", "dates": "Nov 2024 – Present", "bullets": [
             "Own end-to-end maintenance of a national government services platform serving 500,000+ users, covering vehicle registration/ownership transfer (ANRPTS, carte grise) and judicial record (casier judiciaire) requests with in-app PDF preview, share, and download.",
+            "Built and operate a custom OpenID Connect (OIDC) identity provider (Koa, oidc-provider, PKCE) so Khidmaty serves as the shared identity provider (SSO) for other Mauritanian government digital services.",
+            "Led the full backend migration of Mauritania's Carte Grise (vehicle registration) system onto a Next.js API architecture with a complete certificate state-machine workflow, integrating it with both the Khidmaty and Houwity apps.",
+            "Deploy and operate Kubernetes clusters (Docker, Helm charts) across multiple government projects, configuring SSL/HTTPS via Nginx and Caddy.",
             "Administer the production database, including regular backups and data integrity checks.",
             "Release and maintain the app on both Google Play and the Apple App Store; resolve store policy reviews and compliance issues to keep releases approved and live.",
-            "Triage and fix client-reported bugs and mobile app crashes/memory issues; upgrade dependencies and OS/SDK targets to the latest supported versions.",
-            "Monitor the platform for security threats and apply security patches to protect user and government data.",
+            "Triage and fix client-reported bugs and mobile app crashes/memory issues; monitor the platform for security threats and apply patches; upgrade dependencies and OS/SDK targets to the latest supported versions.",
             "Represent the engineering side in meetings with ministry officials and senior government stakeholders on requirements, incidents, and roadmap."
           ]},
           {"title": "Houwity – National Registry Mobile App (Frontend)", "dates": "Nov 2024 – Present", "bullets": [
             "Built and maintain the mobile app frontend for Houwity, a national registry platform equivalent to Mauritania's official ANRPTS portal (anrpts.gov.mr), giving citizens mobile access to the same registry services as the Khidmaty app.",
+            "Connected Houwity to the migrated Carte Grise backend and the shared Khidmaty OIDC identity provider for unified authentication across registry services.",
             "Own ongoing maintenance: feature updates, bug fixes, and alignment with backend/API changes as the registry system evolves."
           ]},
           {"title": "Temwine – Grocery Supply Chain Mobile App", "dates": "Oct 2024 – Present", "bullets": [
@@ -121,7 +125,7 @@
         "job_title": "Ingénieur Logiciel",
         "contact": "cheigeurdeidine@gmail.com  |  +222 49619609  |  linkedin.com/in/deidine  |  github.com/deidine",
         "summary_heading": "Profil",
-        "summary_text": "Ingénieur logiciel avec une expérience dans la livraison d'applications web, mobiles et desktop full-stack pour des projets dans l'immobilier, l'e-commerce, le secteur public et la fintech. Maîtrise de React/Next.js, React Native, Spring Boot et Python, avec une expérience pratique de l'intégration IA (OpenAI SDK, RAG), du déploiement cloud (AWS, GCP) et de la conception de bases de données SQL et NoSQL.",
+        "summary_text": "Ingénieur logiciel avec une expérience dans la livraison d'applications web, mobiles et desktop full-stack pour des projets dans l'immobilier, l'e-commerce, le secteur public et la fintech. Maîtrise de React/Next.js, React Native, Spring Boot et Python, avec une expérience pratique de l'intégration IA (OpenAI SDK, RAG), du déploiement cloud basé sur Kubernetes (AWS, GCP, Docker, Helm), des systèmes d'identité OpenID Connect/SSO, et de la conception de bases de données SQL et NoSQL.",
         "skills_heading": "Compétences",
         "skills": [
           ["Langages", "JavaScript, TypeScript, Python, Java, C, C++, PHP, Dart, SQL"],
@@ -130,7 +134,8 @@
           ["Bases de données", "MySQL, PostgreSQL, MongoDB, Firebase, Supabase, SQL Server, NoSQL"],
           ["IA & Données", "Machine Learning, Deep Learning, NLP, OpenAI SDK, Retrieval-Augmented Generation (RAG), traitement d'image"],
           ["Temps réel & Natif", "WebRTC, LiveKit, Socket.IO, chiffrement de bout en bout, modules natifs React Native/Expo, monorepos Turborepo/Yarn Berry"],
-          ["Cloud & DevOps", "AWS, Google Cloud, Docker, CI/CD, Git"],
+          ["Identité & SSO", "OpenID Connect (OIDC), OAuth2, PKCE, Koa, oidc-provider, courtage d'identité multi-services"],
+          ["Cloud & DevOps", "AWS, Google Cloud, Docker, Kubernetes, Helm, Nginx, Caddy, CI/CD, Git"],
           ["Sécurité & Réseaux", "Wireshark, Burp Suite, Nmap, Kali Linux, fondamentaux réseau"],
           ["Outils & Méthodes", "Figma, Postman, QGIS, Odoo, Claude (développement assisté par IA), UML, Agile, Merise (MCD/MLD/MCT), Design Patterns"],
           ["Publication & Déploiement", "Google Play Console, Apple App Store Connect / TestFlight, mises à jour OTA CodePush, Docker, CI/CD GitHub Actions, pipelines de release versionnés"],
@@ -152,14 +157,17 @@
           ]},
           {"title": "Khidmaty – Plateforme Nationale de Services Publics (Mobile, Backend & Exploitation)", "dates": "Nov 2024 – Présent", "bullets": [
             "Maintenance complète d'une plateforme nationale de services publics comptant plus de 500 000 utilisateurs, couvrant l'immatriculation/transfert de propriété de véhicules (ANRPTS, carte grise) et les demandes de casier judiciaire avec aperçu, partage et téléchargement de PDF dans l'application.",
+            "Développement et exploitation d'un fournisseur d'identité OpenID Connect (OIDC) sur mesure (Koa, oidc-provider, PKCE) faisant de Khidmaty le fournisseur d'identité partagé (SSO) pour d'autres services numériques de l'État mauritanien.",
+            "Pilotage de la migration complète du backend du système Carte Grise (immatriculation des véhicules) vers une architecture API Next.js avec un workflow complet de machine à états du certificat, intégré aux applications Khidmaty et Houwity.",
+            "Déploiement et exploitation de clusters Kubernetes (Docker, charts Helm) pour plusieurs projets gouvernementaux, configuration SSL/HTTPS via Nginx et Caddy.",
             "Administration de la base de données de production, incluant sauvegardes régulières et contrôles d'intégrité des données.",
             "Publication et maintenance de l'application sur Google Play et l'Apple App Store ; résolution des revues de conformité aux politiques des stores pour maintenir les versions approuvées et en ligne.",
-            "Diagnostic et correction des bugs remontés par les clients ainsi que des plantages/problèmes de mémoire de l'application mobile ; mise à jour des dépendances et des cibles OS/SDK vers les dernières versions supportées.",
-            "Surveillance de la plateforme contre les menaces de sécurité et application de correctifs pour protéger les données des utilisateurs et de l'État.",
+            "Diagnostic et correction des bugs remontés par les clients ainsi que des plantages/problèmes de mémoire de l'application mobile ; surveillance de la plateforme contre les menaces de sécurité et application de correctifs ; mise à jour des dépendances et des cibles OS/SDK vers les dernières versions supportées.",
             "Représentation de l'équipe technique lors de réunions avec des responsables ministériels et des parties prenantes gouvernementales de haut niveau sur les besoins, incidents et la feuille de route."
           ]},
           {"title": "Houwity – Application Mobile de Registre National (Frontend)", "dates": "Nov 2024 – Présent", "bullets": [
             "Développement et maintenance du frontend de l'application mobile Houwity, une plateforme de registre national équivalente au portail officiel ANRPTS de Mauritanie (anrpts.gov.mr), donnant aux citoyens un accès mobile aux mêmes services de registre que l'application Khidmaty.",
+            "Connexion de Houwity au backend Carte Grise migré et au fournisseur d'identité OIDC partagé de Khidmaty pour une authentification unifiée entre services de registre.",
             "Maintenance continue : mises à jour de fonctionnalités, corrections de bugs et alignement avec les évolutions du backend/API du système de registre."
           ]},
           {"title": "Temwine – Application Mobile de Chaîne d'Approvisionnement pour Épiceries", "dates": "Oct 2024 – Présent", "bullets": [
