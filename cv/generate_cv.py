@@ -8,9 +8,11 @@ import json
 from pathlib import Path
 
 from docx import Document
-from docx.shared import Pt, Inches
+from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
 from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+from docx.opc.constants import RELATIONSHIP_TYPE as RT
 
 from reportlab.lib.pagesizes import LETTER
 from reportlab.lib.units import inch
@@ -28,6 +30,25 @@ FONT = "Calibri"
 def load_data():
     with open(DATA_PATH, encoding="utf-8") as f:
         return json.load(f)
+
+
+def contact_links(contact: dict):
+    """Build (href, display_text) pairs from a structured contact dict."""
+    parts = []
+    if contact.get("email"):
+        parts.append((f"mailto:{contact['email']}", contact["email"]))
+    if contact.get("phone"):
+        tel = "tel:" + contact["phone"].replace(" ", "")
+        parts.append((tel, contact["phone"]))
+    if contact.get("linkedin"):
+        url = contact["linkedin"]
+        href = url if url.startswith("http") else f"https://{url}"
+        parts.append((href, url))
+    if contact.get("github"):
+        url = contact["github"]
+        href = url if url.startswith("http") else f"https://{url}"
+        parts.append((href, url))
+    return parts
 
 
 # ----------------------------------------------------------------------
@@ -101,6 +122,41 @@ def build_docx(d: dict, out_path: Path):
         run.font.size = Pt(10.5)
         return p
 
+    def add_hyperlink(paragraph, url, text, size=10):
+        part = paragraph.part
+        r_id = part.relate_to(url, RT.HYPERLINK, is_external=True)
+
+        hyperlink = OxmlElement("w:hyperlink")
+        hyperlink.set(qn("r:id"), r_id)
+
+        new_run = OxmlElement("w:r")
+        rPr = OxmlElement("w:rPr")
+
+        rFonts = OxmlElement("w:rFonts")
+        rFonts.set(qn("w:ascii"), FONT)
+        rFonts.set(qn("w:hAnsi"), FONT)
+        rPr.append(rFonts)
+
+        sz = OxmlElement("w:sz")
+        sz.set(qn("w:val"), str(size * 2))
+        rPr.append(sz)
+
+        color = OxmlElement("w:color")
+        color.set(qn("w:val"), "1155CC")
+        rPr.append(color)
+
+        u = OxmlElement("w:u")
+        u.set(qn("w:val"), "single")
+        rPr.append(u)
+
+        new_run.append(rPr)
+        t = OxmlElement("w:t")
+        t.text = text
+        new_run.append(t)
+        hyperlink.append(new_run)
+        paragraph._p.append(hyperlink)
+        return hyperlink
+
     # Header
     name_p = doc.add_paragraph()
     name_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -119,8 +175,11 @@ def build_docx(d: dict, out_path: Path):
     contact_p = doc.add_paragraph()
     contact_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     contact_p.paragraph_format.space_after = Pt(2)
-    r = contact_p.add_run(d["contact"])
-    r.font.size = Pt(10)
+    for i, (href, text) in enumerate(contact_links(d["contact"])):
+        if i > 0:
+            sep = contact_p.add_run("  |  ")
+            sep.font.size = Pt(10)
+        add_hyperlink(contact_p, href, text, size=10)
 
     # Summary
     add_heading(d["summary_heading"])
@@ -169,19 +228,19 @@ def build_pdf(d: dict, out_path: Path):
 
     name_style = ParagraphStyle(
         "Name", parent=styles["Normal"], fontName="Helvetica-Bold",
-        fontSize=20, alignment=TA_CENTER, spaceAfter=2,
+        fontSize=20, leading=24, alignment=TA_CENTER, spaceAfter=2,
     )
     title_style = ParagraphStyle(
         "JobTitle", parent=styles["Normal"], fontName="Helvetica-Oblique",
-        fontSize=12.5, alignment=TA_CENTER, spaceAfter=4,
+        fontSize=12.5, leading=16, alignment=TA_CENTER, spaceAfter=4,
     )
     contact_style = ParagraphStyle(
         "Contact", parent=styles["Normal"], fontName="Helvetica",
-        fontSize=10, alignment=TA_CENTER, spaceAfter=10,
+        fontSize=10, leading=13, alignment=TA_CENTER, spaceAfter=10,
     )
     heading_style = ParagraphStyle(
         "Heading", parent=styles["Normal"], fontName="Helvetica-Bold",
-        fontSize=12, spaceBefore=12, spaceAfter=4,
+        fontSize=12, leading=15, spaceBefore=12, spaceAfter=4,
     )
     body_style = ParagraphStyle(
         "Body", parent=styles["Normal"], fontName="Helvetica",
@@ -193,7 +252,7 @@ def build_pdf(d: dict, out_path: Path):
     )
     entry_dates_style = ParagraphStyle(
         "EntryDates", parent=styles["Normal"], fontName="Helvetica-Oblique",
-        fontSize=10, alignment=2,  # right
+        fontSize=10, leading=13, alignment=2,  # right
     )
     bullet_style = ParagraphStyle(
         "Bullet", parent=styles["Normal"], fontName="Helvetica",
@@ -207,7 +266,11 @@ def build_pdf(d: dict, out_path: Path):
     story = []
     story.append(Paragraph(d["name"], name_style))
     story.append(Paragraph(d["job_title"], title_style))
-    story.append(Paragraph(d["contact"], contact_style))
+    contact_markup = "  |  ".join(
+        f'<a href="{href}"><font color="#1155CC">{text}</font></a>'
+        for href, text in contact_links(d["contact"])
+    )
+    story.append(Paragraph(contact_markup, contact_style))
 
     def add_heading(text):
         story.append(Paragraph(text.upper(), heading_style))
